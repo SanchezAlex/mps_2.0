@@ -1,0 +1,33 @@
+.btn__consultation {
+    display: inline-block;
+    padding: 0.2em 1.5em;
+
+    text-align: center;
+    font-family: Exo2;
+    font-size: 1em;
+    background-color: #666;
+    color: #ffd800;
+    border: 1px solid #ffd800;
+    &:hover {
+        cursor: pointer;
+        background-color: #ffd800;
+        color: #000;
+    }
+}
+.btn__how-it-works {
+    display: inline-block;
+    padding: 0.3em 1em;
+
+    text-align: center;
+    color: white;
+    font-family: Exo2;
+    font-size: 1em;
+    font-weight: 300;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    &:hover {
+        cursor: pointer;
+        color: #FFD700;
+        border-color: #ffd700;
+    }
+}

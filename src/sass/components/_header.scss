@@ -1,0 +1,64 @@
+.header {
+  background-color: #666;
+  .container {
+    .navbar {
+      width: 100%;
+      padding: 0.5em 0;
+      line-height: 1.2;
+      .navbar__menu {
+        display: inline-block;
+        float: left;
+        font-family: Ubuntu;
+        font-size: 1em;
+        font-weight: 300;
+          li {
+            display: inline;
+            a {
+              text-decoration: none;
+              padding: 0 1em;
+              color: #fff;
+              &:hover {
+                cursor: pointer;
+                color: #868584;
+              }
+            }
+          }
+      }
+      .header__phone {
+        width: 16%;
+        float: left;
+        padding-left: 15%;
+        ul {
+          list-style-type: none;
+          .main__phone {
+            position: relative;
+            color: #fff;
+            font-family: Ubuntu;
+            font-size: 1.32em;
+            font-weight: 300;
+            .second__phone {
+              position: absolute;
+              top: 100%;
+              display: none;
+              width: 100%;
+            }
+            &:hover {
+              cursor: pointer;
+            }
+            &:hover > .second__phone {
+              display: block;
+            }
+          }
+        }
+      }
+      .header__consultation {
+        display: inline-block;
+        width: 14%;
+        float: left;
+        text-align: end;
+      }
+
+    }
+
+  }
+}

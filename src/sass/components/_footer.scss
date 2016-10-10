@@ -1,0 +1,106 @@
+.footer {
+  background-color: #666;
+  .container {
+  .footer__container {
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    padding-left: 20%;
+      .footer__about-us,
+      .footer__programs {
+        display: block;
+        padding: 0 0.5em;
+        color: #fff;
+        font-family: Ubuntu;
+        font-size: 1em;
+        font-weight: 300;
+        text-align: justify;
+        p {
+          font-family: Exo2;
+          font-size: 1em;
+          font-weight: 400;
+          line-height: 1.5;
+        }
+        ul {
+          list-style-type: none;
+          padding: 0;
+          li {
+            font-family: Ubuntu;
+            font-size: 0.7em;
+            font-weight: 300;
+            color: #fff;
+            line-height: 1.5;
+            a {
+              text-decoration: none;
+              color: #fff;
+              &:hover {
+                cursor: pointer;
+                color: #868584;
+              }
+            }
+          }
+        }
+
+      }
+      .footer__countries {
+        display: block;
+        padding: 0 0.5em;
+        color: #fff;
+        font-family: Ubuntu;
+        font-size: 1em;
+        font-weight: 300;
+        text-align: justify;
+        p {
+          font-family: Exo2;
+          font-size: 1em;
+          font-weight: 400;
+          line-height: 1.5;
+        }
+        .footer__countries--selection{
+        }
+      }
+      .footer__contacts {
+        display: block;
+        padding: 0 0.5em;
+        color: #fff;
+        font-family: Ubuntu;
+        font-size: 1em;
+        font-weight: 300;
+        text-align: justify;
+        p {
+          font-family: Exo2;
+          font-size: 1em;
+          font-weight: 400;
+          line-height: 1.5;
+        }
+        ul {
+          list-style-type: none;
+          padding: 0;
+          li {
+            font-family: Ubuntu;
+            font-size: 0.7em;
+            font-weight: 300;
+            color: #fff;
+            line-height: 1.5;
+            a {
+              text-decoration: none;
+              color: #fff;
+              &:hover {
+                cursor: pointer;
+                color: #868584;
+              }
+            }
+          }
+        }
+      }
+    }
+    .footer__copyright {
+      padding: 0.5em 1em;
+      color: white;
+      font-family: Ubuntu;
+      font-size: 1em;
+      font-weight: 300;
+    }
+  }
+}
