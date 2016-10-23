@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Место под солнцем</title>
+    <link rel="icon" href="src/pic/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="src/pic/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/normalize.css">
+    <link rel="stylesheet" href="src/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="src/owl-carousel/owl.theme.css">
+    <script src="src/owl-carousel/jquery.min.js"></script>
+    <script src="src/owl-carousel/owl.carousel.min.js"></script>
+    <script src="src/js/stories_sliders.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Exo+2|Open+Sans:100,300,400,700|Ubuntu" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+    <div class="header__fixed">
+        <div class="container">
+            <nav class="navbar clearfix">
+                <ul class="navbar__menu clearfix">
+                    <li>
+                        <a href="#">О нас</a>
+                    </li>
+                    <li>
+                        <a href="#">Процесс и оплата</a>
+                    </li>
+                    <li>
+                        <a href="#">Гарантии</a>
+                    </li>
+                    <li>
+                        <a href="#">Вопросы и ответы</a>
+                    </li>
+                    <li>
+                        <a href="#">Блог</a>
+                    </li>
+                    <li>
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+                <div class="header__phone">
+                    <form>
+                        <select title="Наш телефон">
+                            <option>МТS (099) 100 10 10</option>
+                            <option>KS (067) 200 20 20</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="header__consultation">
+                    <form action="want_button.php">
+                        <button class="btn__consultation">Хочу консультацию</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+<section class="head__main">
+    <div class="container">
+        <div class="logo">
+            <a href="#">
+                <img src="src/img/logo.png" alt="logo_not_found">
+            </a>
+        </div>
+            <ul class="features clearfix">
+               <li>
+                   <div class="features--icon">
+                       <img src="src/pic/map.png" alt="img_not_found">
+                   </div>
+                   <div class="features--description">
+                       <p>Вся Украина</p>
+                       <p>- система online</p>
+                   </div>
+               </li>
+                <li>
+                    <div class="features--icon">
+                        <img src="src/pic/transparently.png" alt="img_not_found">
+                    </div>
+                    <div class="features--description">
+                        <p>Прозрачно</p>
+                        <p>- без скрытых комисий</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="features--icon">
+                        <img src="src/pic/available.png" alt="img_not_found">
+                    </div>
+                    <div class="features--description">
+                        <p>Доступно</p>
+                        <p>- понятно с 1-го раза </p>
+                    </div>
+                </li>
+            </ul>
+        <div class="head__main--title">
+            <div class="clearfix">
+                <h1>ЗА ГРАНИЦУ ЧЕРЕЗ ОБРАЗОВАНИЕ И КАРЬЕРУ!</h1>
+                <h2>НАЙДИ СВОЕ МЕСТО ПОД СОЛНЦЕМ УЖЕ СЕГОДНЯ!</h2>
+            </div>
+            <div class="how__it__works">
+                <form action="buttons">
+                    <button class="btn__how-it-works">Как это работает</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="search__variants">
+    <div class="container">
+        <div class="variants__catalog">
+            <h2 class="variants__catalog--title">
+                КАТАЛОГ ВАРИАНТОВ
+            </h2>
+            <form action="variants.php">
+
+                <fieldset>
+                    <label for="target">
+                        <a href=""></a>
+                        <img src="src/pic/priority_sign.png" alt="img_not_found">
+                        <p>приоритет</p>
+                    </label>
+                    <select name="target" title="Цель" id="target">
+                        <option disabled selected>Какая ваша цель?</option>
+                        <option value="study">Учеба</option>
+                        <option value="holiday">Каникулы</option>
+                        <option value="migration">Миграция</option>
+                        <option value="work">Работа</option>
+                    </select>
+
+                    <select name="destination" title="Напрваление" id="destination">
+                        <option disabled selected>Куда хотите уехать?</option>
+                        <option value="europe">Европа</option>
+                        <option value="usa">Америка</option>
+                        <option value="england">Англия</option>
+                        <option value="asia">Азия</option>
+                    </select>
+
+                    <select name="language" title="Выбор языка" id="language">
+                        <option disabled selected>Требуемый язык</option>
+                        <option value="eng">Английский</option>
+                        <option value="esp">Испанский</option>
+                        <option value="chi">Китайский</option>
+                        <option value="por">Португальский</option>
+                    </select>
+
+                    <select name="level_language" title="Уровень знания языка" id="level">
+                        <option disabled selected>Уровень знания языка</option>
+                        <option value="free">Свободное владение</option>
+                        <option value="self">Самодостаточное владение</option>
+                        <option value="elementary">Элементарное владение</option>
+                    </select>
+
+                    <button class="btn__find-variants">
+                        <h3>Найдите варианты</h3>
+                        <p>с учетом вашего приоритета</p>
+                        <div></div>
+                    </button>
+
+                    <p class="priority">
+                        <a href="why_use_priority.html">Зачем выставлять приоритет?</a>
+                    </p>
+                </fieldset>
+
+            </form>
+        </div>
+    </div>
+</section>
+<section class="slider__institutions">
+    <div class="container">
+        <div id="slider-1">
+            <div class="slider__institutions__main">
+                <div class="slider__institutions__row">
+                    <div class="slider__institutions__row--item">
+                        <a href="http://www.fdu.edu/" target="_blank">
+                            <img src="src/img/institutions_logo/fdu_2.png" alt="img_not_found">
+                        </a>
+                    </div>
+                    <div class="slider__institutions__row--item">
+                        <a href="http://www.berkeley.edu/" target="_blank">
+                            <img src="src/img/institutions_logo/ucb.png" alt="img_not_found">
+                        </a>
+                    </div>
+                    <div class="slider__institutions__row--item">
+                        <a href="http://humber.ca/" target="_blank">
+                            <img src="src/img/institutions_logo/humber.png" alt="img_not_found">
+                        </a>
+                    </div>
+                    <div class="slider__institutions__row--item">
+                        <a href="http://drexel.edu/" target="_blank">
+                            <img src="src/img/institutions_logo/drexel.png" alt="img_not_found">
+                        </a>
+                    </div>
+                    <div class="slider__institutions__row--item">
+                        <a href="http://www.shms.com/en/" target="_blank">
+                            <img src="src/img/institutions_logo/shms.jpg" alt="img_not_found">
+                        </a>
+                    </div>
+                    <div class="slider__institutions__row--item">
+                        <a href="http://www.georgebrown.ca/" target="_blank">
+                            <img src="src/img/institutions_logo/gbc.png" alt="img_not_found">
+                        </a>
+                    </div>
+                    <div class="slider__institutions__row--item">
+                        <a href="http://www.fdu.edu/" target="_blank">
+                            <img src="src/img/institutions_logo/fdu.png" alt="img_not_found">
+                        </a>
+                    </div>
+                    <div class="slider__institutions__row--item">
+                        <a href="http://humber.ca/" target="_blank">
+                            <img src="src/img/institutions_logo/humber.png" alt="img_not_found">
+                        </a>
+                    </div>
+                </div>
+                <div class="slider__institutions__row">
+            <div class="slider__institutions__row--item">
+                <a href="http://www.fdu.edu/" target="_blank">
+                    <img src="src/img/institutions_logo/fdu_2.png" alt="img_not_found">
+                </a>
+            </div>
+            <div class="slider__institutions__row--item">
+                <a href="http://www.berkeley.edu/" target="_blank">
+                    <img src="src/img/institutions_logo/ucb.png" alt="img_not_found">
+                </a>
+            </div>
+            <div class="slider__institutions__row--item">
+                <a href="http://humber.ca/" target="_blank">
+                    <img src="src/img/institutions_logo/humber.png" alt="img_not_found">
+                </a>
+            </div>
+            <div class="slider__institutions__row--item">
+                <a href="http://drexel.edu/" target="_blank ">
+                    <img src="src/img/institutions_logo/drexel.png" alt="img_not_found">
+                </a>
+            </div>
+            <div class="slider__institutions__row--item">
+                <a href="http://www.shms.com/en/" target="_blank ">
+                    <img src="src/img/institutions_logo/shms.jpg" alt="img_not_found">
+                </a>
+            </div>
+            <div class="slider__institutions__row--item">
+                <a href="http://www.georgebrown.ca/" target="_blank ">
+                    <img src="src/img/institutions_logo/gbc.png" alt="img_not_found">
+                </a>
+            </div>
+            <div class="slider__institutions__row--item">
+                <a href="http://www.fdu.edu/" target="_blank">
+                    <img src="src/img/institutions_logo/fdu.png" alt="img_not_found">
+                </a>
+            </div>
+            <div class="slider__institutions__row--item">
+                <a href="http://humber.ca/" target="_blank ">
+                    <img src="src/img/institutions_logo/humber.png" alt="img_not_found">
+                </a>
+            </div>
+            <div class="slider__institutions__row--item">
+                <a href="http://www.fdu.edu/" target="_blank ">
+                    <img src="src/img/institutions_logo/fdu_2.png" alt="img_not_found">
+                </a>
+            </div>
+            <div class="slider__institutions__row--item">
+                <a href="http://www.berkeley.edu/" target="_blank">
+                    <img src="src/img/institutions_logo/ucb.png" alt="img_not_found">
+                </a>
+            </div>
+        </div>
+            </div>
+            <div class="slider__institutions__main">
+                <div class="slider__institutions__row">
+                    <div class="slider__institutions__row--item">
+                        <a href="http://www.fdu.edu/" target="_blank">
+                            <img src="src/img/institutions_logo/fdu_2.png" alt="img_not_found">
+                        </a>
+                    </div>
+                    <div class="slider__institutions__row--item">
+                        <a href="http://www.berkeley.edu/" target="_blank">
+                            <img src="src/img/institutions_logo/ucb.png" alt="img_not_found">
+                        </a>
+                    </div>
+                    <div class="slider__institutions__row--item">
+                        <a href="http://humber.ca/" target="_blank">
+                            <img src="src/img/institutions_logo/humber.png" alt="img_not_found">
+                        </a>
+                    </div>
+                    <div class="slider__institutions__row--item">
+                        <a href="http://drexel.edu/" target="_blank">
+                            <img src="src/img/institutions_logo/drexel.png" alt="img_not_found">
+                        </a>
+                    </div>
+                    <div class="slider__institutions__row--item">
+                        <a href="http://www.shms.com/en/" target="_blank">
+                            <img src="src/img/institutions_logo/shms.jpg" alt="img_not_found">
+                        </a>
+                    </div>
+                    <div class="slider__institutions__row--item">
+                        <a href="http://www.georgebrown.ca/" target="_blank">
+                            <img src="src/img/institutions_logo/gbc.png" alt="img_not_found">
+                        </a>
+                    </div>
+                    <div class="slider__institutions__row--item">
+                        <a href="http://www.fdu.edu/" target="_blank">
+                            <img src="src/img/institutions_logo/fdu.png" alt="img_not_found">
+                        </a>
+                    </div>
+                    <div class="slider__institutions__row--item">
+                        <a href="http://humber.ca/" target="_blank">
+                            <img src="src/img/institutions_logo/humber.png" alt="img_not_found">
+                        </a>
+                    </div>
+                </div>
+                <div class="slider__institutions__row">
+                    <div class="slider__institutions__row--item">
+                        <a href="http://www.fdu.edu/" target="_blank">
+                            <img src="src/img/institutions_logo/fdu_2.png" alt="img_not_found">
+                        </a>
+                    </div>
+                    <div class="slider__institutions__row--item">
+                        <a href="http://www.berkeley.edu/" target="_blank">
+                            <img src="src/img/institutions_logo/ucb.png" alt="img_not_found">
+                        </a>
+                    </div>
+                    <div class="slider__institutions__row--item">
+                        <a href="http://humber.ca/" target="_blank">
+                            <img src="src/img/institutions_logo/humber.png" alt="img_not_found">
+                        </a>
+                    </div>
+                    <div class="slider__institutions__row--item">
+                        <a href="http://drexel.edu/" target="_blank ">
+                            <img src="src/img/institutions_logo/drexel.png" alt="img_not_found">
+                        </a>
+                    </div>
+                    <div class="slider__institutions__row--item">
+                        <a href="http://www.shms.com/en/" target="_blank ">
+                            <img src="src/img/institutions_logo/shms.jpg" alt="img_not_found">
+                        </a>
+                    </div>
+                    <div class="slider__institutions__row--item">
+                        <a href="http://www.georgebrown.ca/" target="_blank ">
+                            <img src="src/img/institutions_logo/gbc.png" alt="img_not_found">
+                        </a>
+                    </div>
+                    <div class="slider__institutions__row--item">
+                        <a href="http://www.fdu.edu/" target="_blank">
+                            <img src="src/img/institutions_logo/fdu.png" alt="img_not_found">
+                        </a>
+                    </div>
+                    <div class="slider__institutions__row--item">
+                        <a href="http://humber.ca/" target="_blank ">
+                            <img src="src/img/institutions_logo/humber.png" alt="img_not_found">
+                        </a>
+                    </div>
+                    <div class="slider__institutions__row--item">
+                        <a href="http://www.fdu.edu/" target="_blank ">
+                            <img src="src/img/institutions_logo/fdu_2.png" alt="img_not_found">
+                        </a>
+                    </div>
+                    <div class="slider__institutions__row--item">
+                        <a href="http://www.berkeley.edu/" target="_blank">
+                            <img src="src/img/institutions_logo/ucb.png" alt="img_not_found">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="stories__under__sun">
+    <div class="container">
+        <div class="stories__under__sun--header">
+            <h1>ИСТОРИИ «ПОД СОЛНЦЕМ»</h1>
+        </div>
+        <div class="stories__all clearfix2">
+            <a href="all_stories.html" target="_self">
+                Все истории
+                <!--<img src="src/pic/all_stories_arrow.png" alt="img_not_found">-->
+            </a>
+        </div>
+        <div id="slider-2">
+            <a href="stories_1.html" target="_self">
+                <div class="stories__item item">
+                    <div class="stories__item--img">
+                        <img src="src/img/stories_1.png" alt="img_not_found">
+                    </div>
+                    <div class="stories__item--name">
+                        <h1>Анжелика</h1>
+                        <p>студентка, 29 лет</p>
+                        <div class="stories__item--description">
+                            <p>Китай, Волонтерская</p>
+                            <p>программа</p>
+                            <p>2014 год (4 месяца)</p>
+                        </div>
+                    </div>
+                    <div class="stories__item--main">
+                        <h3>«Пекин это что-то, а утку не пробовал»</h3>
+                        <p>Как путешествовать и учить язык за малые деньги? Задавал себе этот</p>
+                        <p>вопрос каждый раз когда смотрела «Орел и решка». Оказалось, что ..</p>
+                    </div>
+                </div>
+            </a>
+            <a href="stories_2.html" target="_self">
+                <div class="stories__item item">
+                    <div class="stories__item--img">
+                        <img src="src/img/stories_2.png" alt="img_not_found">
+                    </div>
+                    <div class="stories__item--name story-next-name">
+                        <h1>Иван</h1>
+                        <p>студент, 29 лет</p>
+                        <div class="stories__item--description">
+                            <p>Китай, Волонтерская</p>
+                            <p>программа</p>
+                            <p>2014 год (4 месяца)</p>
+                        </div>
+                    </div>
+                    <div class="stories__item--main story-next-main">
+                        <h3>«Пекин это что-то, а утку не пробовал»</h3>
+                        <p>Как путешествовать и учить язык за малые деньг? Задавал себе этот</p>
+                        <p>вопрос каждый раз когда смотрел «Орел и решка». Оказалось, что ..</p>
+                    </div>
+                </div>
+            </a>
+            <a href="stories_1.html" target="_self ">
+                <div class="stories__item item">
+                    <div class="stories__item--img">
+                        <img src="src/img/stories_1.png" alt="img_not_found">
+                    </div>
+                    <div class="stories__item--name">
+                        <h1>Анжелика</h1>
+                        <p>студентка, 29 лет</p>
+                        <div class="stories__item--description">
+                            <p>Китай, Волонтерская</p>
+                            <p>программа</p>
+                            <p>2014 год (4 месяца)</p>
+                        </div>
+                    </div>
+                    <div class="stories__item--main">
+                        <h3>«Пекин это что-то, а утку не пробовал»</h3>
+                        <p>Как путешествовать и учить язык за малые деньг? Задавал себе этот</p>
+                        <p>вопрос каждый раз когда смотрела «Орел и решка». Оказалось, что ..</p>
+                    </div>
+                </div>
+            </a>
+            <a href="stories_2.html"target="_self">
+                <div class="stories__item item">
+                    <div class="stories__item--img">
+                        <img src="src/img/stories_2.png" alt="img_not_found">
+                    </div>
+                    <div class="stories__item--name story-next-name">
+                        <h1>Иван</h1>
+                        <p>студент, 29 лет</p>
+                        <div class="stories__item--description">
+                            <p>Китай, Волонтерская</p>
+                            <p>программа</p>
+                            <p>2014 год (4 месяца)</p>
+                        </div>
+                    </div>
+                    <div class="stories__item--main story-next-main">
+                        <h3>«Пекин это что-то, а утку не пробовал»</h3>
+                        <p>Как путешествовать и учить язык за малые деньг? Задавал себе этот</p>
+                        <p>вопрос каждый раз когда смотрел «Орел и решка». Оказалось, что ..</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+<section class="benefits">
+    <div class="container">
+        <div class="benefits__container">
+            <div class="benefits__title">
+                <h1>ЧТО ВЫ ПОЛУЧИТЕ В ИТОГЕ</h1>
+            </div>
+            <div class="benefits__main">
+                <h2>Что вы получаете в итоге:</h2>
+                <p>Work and Travel USA — тебе наверняка не раз приходилось слышать эти слова от своих друзей, родных
+                   или знакомых. И это не удивительно, ведь это самая популярная студенческая программа последнего
+                   десятилетия. Только она даёт тебе отличную возможность провести лето в Соединённых Штатах Америки,
+                    жить на берегу океана или в мегаполисе, работать бок о бок с американцами и такими же как ты
+                    студентами из разных стран, зарабатывать хорошие деньги, в совершенстве овладеть английским,
+                    отправиться в незабываемое путешествие и почувствовать настоящую свободу.
+                </p>
+                <div class="benefits__img__wrap">
+                    <div class="benefits__img--main">
+                        <img src="src/img/benefits_img.jpg" alt="img_not_found">
+                    </div>
+                    <div class="benefits__img--main">
+                        <img src="src/img/benefits_img.jpg" alt="img_not_found">
+                    </div>
+                    <div class="benefits__img--main">
+                        <img src="src/img/benefits_img.jpg" alt="img_not_found">
+                    </div>
+                </div>
+                <h2>Что вы получаете в итоге:</h2>
+                <p>Work and Travel USA — тебе наверняка не раз приходилось слышать эти слова от своих друзей, родных
+                    или знакомых. И это не удивительно, ведь это самая популярная студенческая программа последнего
+                    десятилетия. Только она даёт тебе отличную возможность провести лето в Соединённых Штатах Америки,
+                    жить на берегу океана или в мегаполисе, работать бок о бок с американцами и такими же как ты
+                    студентами из разных стран, зарабатывать хорошие деньги, в совершенстве овладеть английским,
+                    отправиться в незабываемое путешествие и почувствовать настоящую свободу.
+                </p>
+                <h2>Что вы получаете в итоге:</h2>
+                <p>Work and Travel USA — тебе наверняка не раз приходилось слышать эти слова от своих друзей, родных
+                    или знакомых. И это не удивительно, ведь это самая популярная студенческая программа последнего
+                    десятилетия. Только она даёт тебе отличную возможность провести лето в Соединённых Штатах Америки,
+                    жить на берегу океана или в мегаполисе, работать бок о бок с американцами и такими же как ты
+                    студентами из разных стран, зарабатывать хорошие деньги, в совершенстве овладеть английским,
+                    отправиться в незабываемое путешествие и почувствовать настоящую свободу.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__wrap">
+        <div class="footer__about-us">
+            <p>
+                Узнайте больше о нас:
+            </p>
+            <ul>
+                <li>
+                    <a href="about_us.html" target="_self">О нас</a>
+                </li>
+                <li>
+                    <a href="process_payment.html" target="_self">Процесс и оплата</a>
+                </li>
+                <li>
+                    <a href="trust_security.html" target="_self">Доверие и безопасность</a>
+                </li>
+                <li>
+                    <a href="faq.html" target="_self">Помощь (FAQ)</a>
+                </li>
+                <li>
+                    <a href="blog.html" target="_self">Блог</a>
+                </li>
+                <li>
+                    <a href="contacts.html" target="_self">Контакты</a>
+                </li>
+                <li>
+                    <a href="site_map.html" target="_self">Карта сайта</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__programs">
+            <p>
+                Программы:
+            </p>
+            <ul>
+                <li>
+                    <a href="holiday.html" target="_self">Каникулы</a>
+                </li>
+                <li>
+                    <a href="language_courses.html" target="_self">Языковые курсы</a>
+                </li>
+                <li>
+                    <a href="secondary_education.html" target="_self">Среднее образование</a>
+                </li>
+                <li>
+                    <a href="higher_education.html" target="_self ">Высшее образование</a>
+                </li>
+                <li>
+                    <a href="magistracy.html" target="_self">Магистратура</a>
+                </li>
+                <li>
+                    <a href="traineeship.html" target="_self" >Стажировка/Практика</a>
+                </li>
+                <li>
+                    <a href="migration.html" target="_self ">Миграция</a>
+                </li>
+                <li>
+                    <a href="work.html" target="_self ">Работа</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__countries">
+            <p>Страны:</p>
+            <div class="footer__countries__wrap">
+                <ul class="footer__countries--box">
+                    <li>Весь мир</li>
+                    <li>Севереная Америка</li>
+                    <li>США</li>
+                    <li>Канада</li>
+                    <li>Южная Америка</li>
+                    <li>Бразилия</li>
+                    <li>Аргентина</li>
+                    <li>Вся Европа (EU)</li>
+                    <li>Англия</li>
+                    <li>Германия</li>
+                    <li>Польша</li>
+                    <li>Швеция</li>
+                    <li>Нидерланды</li>
+                    <li>Сингапур</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__contacts">
+            <p>Наши контакты:</p>
+            <ul>
+                <li>
+                    <a href="tel:+380991001010">МТС (099) 100 10 10</a>
+                </li>
+                <li>
+                    <a href="tel:+380672002020">КС + Viber (067) 200 20 20</a>
+                </li>
+                <li>
+                    <a href="skype:mps?call">Skype: mps</a>
+                </li>
+            </ul>
+            <form action="buttons">
+                <button type="button" class="btn__consultation">Хочу консультацию</button>
+            </form>
+            <p>Наш адрес:</p>
+            <ul>
+                <li>г. Киев, пр. Шевченко, 18</li>
+                <li>офис №205 (2 эт.)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer__copyright">
+        <p>© Группа компаний «Место под солнцем», 2016</p>
+    </div>
+
+    </div>
+</footer>
+</body>
