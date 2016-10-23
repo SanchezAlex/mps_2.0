@@ -1,9 +1,9 @@
 .container {
-  max-width: 1380px;
+  max-width: 1170px;
   width: 100%;
   margin: 0 auto;
 }
-.clearfix:after {
+.clearfix::after {
   content: '';
   clear: both;
   display: table;
@@ -22,6 +22,6 @@ p, h1, h2 {
 }
 img {
   max-width: 100%;
-  width: 100%;
+  //width: 100%;
   height: auto;
 }

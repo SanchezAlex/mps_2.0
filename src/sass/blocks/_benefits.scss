@@ -1,0 +1,49 @@
+.benefits {
+  background: #fff;
+  .container {
+    .benefits__container {
+      width: 66%;
+      padding-left: 30%;
+      padding-right: 5%;
+      .benefits__title {
+        width: 51%;
+        margin-top: 2em;
+        background-color: #ffd800;
+        h1 {
+          color: #000;
+          font-family: 'Exo 2', sans-serif;
+          font-size: 1.5em;
+          font-weight: 400;
+          padding: 1em 0 1em 1.1em;
+        }
+      }
+      .benefits__main {
+        text-align: justify;
+        color: #000;
+        padding-bottom: 3em;
+        h2 {
+          padding-top: 1.5em;
+          font-family: 'Exo 2', sans-serif;
+          font-size: 1.5em;
+          font-weight: 400;
+        }
+        p {
+          padding-top: 1.2em;
+          font-family: 'Ubuntu', sans-serif;
+          font-size: 0.9em;
+          font-weight: 300;
+          line-height: 1.6;
+        }
+        .benefits__img__wrap {
+          width: 100%;
+          padding-top: 1em;
+          display: flex;
+          justify-content: space-between;
+          .benefits__img--main {
+            width: 33%;
+          }
+        }
+      }
+    }
+  }
+}

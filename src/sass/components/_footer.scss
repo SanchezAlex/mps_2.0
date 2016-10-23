@@ -1,8 +1,8 @@
 .footer {
   background-color: #666;
   .container {
-  .footer__container {
-    padding-top: 1em;
+  .footer__wrap {
+    padding: 1em 0;
     display: flex;
     justify-content: space-around;
     width: 80%;
@@ -12,13 +12,14 @@
         display: block;
         padding: 0 0.5em;
         color: #fff;
-        font-family: Ubuntu;
+        font-family: 'Ubuntu', sans-serif;
         font-size: 1em;
         font-weight: 300;
         text-align: justify;
         p {
-          font-family: Exo2;
-          font-size: 1em;
+          padding: 0 0 1em 0;
+          font-family: 'Exo 2', sans-serif;
+          font-size: 1.3em;
           font-weight: 400;
           line-height: 1.5;
         }
@@ -26,11 +27,11 @@
           list-style-type: none;
           padding: 0;
           li {
-            font-family: Ubuntu;
-            font-size: 0.7em;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 0.9em;
             font-weight: 300;
             color: #fff;
-            line-height: 1.5;
+            line-height: 1.7;
             a {
               text-decoration: none;
               color: #fff;
@@ -45,44 +46,71 @@
       }
       .footer__countries {
         display: block;
+        position: relative;
+        width: 17%;
         padding: 0 0.5em;
         color: #fff;
-        font-family: Ubuntu;
+        font-family: 'Ubuntu', sans-serif;
         font-size: 1em;
         font-weight: 300;
         text-align: justify;
         p {
-          font-family: Exo2;
-          font-size: 1em;
+          padding: 0 0 1em 0;
+          font-family: 'Exo 2', sans-serif;
+          font-size: 1.3em;
           font-weight: 400;
           line-height: 1.5;
         }
-        .footer__countries--selection{
+        .footer__countries__wrap {
+          margin: 0 -0.2em;
+          .footer__countries--box {
+            position: absolute;
+            height: 85%;
+            padding: 0.2em 0.5em;
+            overflow-y: scroll;
+            color: #fff;
+            background-color: rgba(192, 192, 192, 0.3);
+            li {
+              padding: 0 0.2em;
+              font-family: 'Ubuntu', sans-serif;
+              font-size: 0.9em;
+              font-weight: 300;
+              line-height: 1.7;
+              &:hover {
+                cursor: pointer;
+                background-color: #4d5152;
+              }
+            }
+          }
         }
       }
       .footer__contacts {
         display: block;
         padding: 0 0.5em;
         color: #fff;
-        font-family: Ubuntu;
+        font-family: 'Ubuntu', sans-serif;
         font-size: 1em;
         font-weight: 300;
         text-align: justify;
         p {
-          font-family: Exo2;
-          font-size: 1em;
+          padding: 0 0 1em 0;
+          font-family: 'Exo 2', sans-serif;
+          font-size: 1.3em;
           font-weight: 400;
-          line-height: 1.5;
+          line-height: 1.7;
+        }
+        &:last-of-type p {
+          padding-bottom: 0.5em;
         }
         ul {
           list-style-type: none;
           padding: 0;
           li {
-            font-family: Ubuntu;
-            font-size: 0.7em;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 0.9em;
             font-weight: 300;
             color: #fff;
-            line-height: 1.5;
+            line-height: 1.7;
             a {
               text-decoration: none;
               color: #fff;
@@ -93,12 +121,15 @@
             }
           }
         }
+        .btn__consultation {
+          margin: 0.5em 0;
+        }
       }
     }
     .footer__copyright {
       padding: 0.5em 1em;
-      color: white;
-      font-family: Ubuntu;
+      color: #fff;
+      font-family: 'Ubuntu', sans-serif;
       font-size: 1em;
       font-weight: 300;
     }

@@ -3,8 +3,9 @@
     padding: 0.2em 1.5em;
 
     text-align: center;
-    font-family: Exo2;
+    font-family: 'Exo 2', sans-serif;
     font-size: 1em;
+    text-transform: uppercase;
     background-color: #666;
     color: #ffd800;
     border: 1px solid #ffd800;
@@ -20,14 +21,53 @@
 
     text-align: center;
     color: white;
-    font-family: Exo2;
+    font-family: 'Exo 2', sans-serif;
     font-size: 1em;
     font-weight: 300;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     &:hover {
         cursor: pointer;
-        color: #FFD700;
+        color: #000;
+        background: rgba(255, 216, 0, 0.6);
         border-color: #ffd700;
+    }
+}
+.btn__find-variants {
+    display: inline-block;
+    width: 90%;
+    margin: 0.5em auto;
+    padding: 0.3em 0 0.3em 1.5em ;
+    background-color: #ffd800;
+    color: #000;
+    border: 0;
+    position: relative;
+    h3 {
+        margin: 0 auto;
+        padding: 0.5em 0 0;
+        text-align: start;
+        font-family: 'Exo 2', sans-serif;
+        text-transform: uppercase;
+        font-size: 1.2em;
+        font-weight: 700;
+    }
+     p {
+         padding: 0 0 0.5em;
+         font-family: 'Ubuntu', sans-serif;
+         font-size: 0.7em;
+         font-weight: 300;
+     }
+    &:hover {
+        cursor: pointer;
+    }
+    div {
+        position: absolute;
+        top: 0;
+        left: 100%;
+        width: 0;
+        height: 0;
+        border: 1.87em solid transparent;
+        border-left-color: #ffd800;
+        border-right: 0;
     }
 }

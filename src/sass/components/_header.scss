@@ -1,16 +1,23 @@
 .header {
+  height: 2.625em;
   background-color: #666;
-  .container {
-    .navbar {
-      width: 100%;
-      padding: 0.5em 0;
-      line-height: 1.2;
-      .navbar__menu {
-        display: inline-block;
-        float: left;
-        font-family: Ubuntu;
-        font-size: 1em;
-        font-weight: 300;
+  .header__fixed {
+    background-color: #666;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+    .container {
+      .navbar {
+        width: 100%;
+        padding: 0.5em 0;
+        line-height: 1.2;
+        .navbar__menu {
+          display: inline-block;
+          float: left;
+          font-family: 'Ubuntu', sans-serif;
+          font-size: 1em;
+          font-weight: 300;
+          line-height: 1.4;
           li {
             display: inline;
             a {
@@ -23,42 +30,32 @@
               }
             }
           }
-      }
-      .header__phone {
-        width: 16%;
-        float: left;
-        padding-left: 15%;
-        ul {
-          list-style-type: none;
-          .main__phone {
-            position: relative;
+        }
+        .header__phone {
+          float: left;
+          padding: 0 0.5em 0 2em;
+          select {
+            width: 100%;
             color: #fff;
-            font-family: Ubuntu;
-            font-size: 1.32em;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 1.2em;
             font-weight: 300;
-            .second__phone {
-              position: absolute;
-              top: 100%;
-              display: none;
-              width: 100%;
-            }
-            &:hover {
-              cursor: pointer;
-            }
-            &:hover > .second__phone {
-              display: block;
-            }
+            border: 0;
+            background: url(../../pic/arrow_down.png) no-repeat 0 #666;
+            padding-left: 1em;
+            -webkit-appearance: none;
+            -moz-appearance: none;
           }
         }
-      }
-      .header__consultation {
-        display: inline-block;
-        width: 14%;
-        float: left;
-        text-align: end;
+        .header__consultation {
+          display: inline-block;
+          width: 19%;
+          float: left;
+          text-align: end;
+        }
+
       }
 
     }
-
   }
 }

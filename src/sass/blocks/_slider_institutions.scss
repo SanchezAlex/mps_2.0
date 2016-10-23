@@ -1,0 +1,63 @@
+.slider__institutions {
+  background-color: #fff;
+  .container {
+    .slider__institutions__main {
+      margin: 2em auto;
+      width: 97%;
+      border: #ffd800 solid 0.15em;
+      .slider__institutions__row {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .slider__institutions__row--item {
+          width: 7%;
+          padding: 0.5em 0.2em;
+          opacity: 0.5;
+          &:hover {
+            opacity: 1;
+          }
+        }
+        &:nth-of-type(2) > div {
+          width: 5%;
+        }
+      }
+    }
+    #slider-1 {
+      .owl-pagination {
+        display: none;
+      }
+      .owl-prev {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        margin-top: -1em;
+        left: 0;
+        padding: 0.2em;
+        width: 2em;
+        height: 2em;
+        background-color: rgba(0, 0, 0, 0.4);
+        &:hover {
+          background-color: rgba(255, 165, 0, 0.8);
+        }
+      }
+      .owl-next {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        margin-top: -1em;
+        right: 0;
+        padding: 0.2em;
+        width: 2em;
+        height: 2em;
+        background-color: rgba(0, 0, 0, 0.4);
+        &:hover {
+          background-color: rgba(255, 165, 0, 0.8);
+        }
+      }
+    }
+  }
+}
