@@ -12,8 +12,8 @@ $(document).ready(function() {
         responsive: true,
         navigation: true,
         navigationText: [
-            "<img	src='../pic/slider_stories_prev.png'>",
-            "<img	src='../pic/slider_stories_next.png'>"
+            "<img	src='./pic/slider_stories_prev.png'>",
+            "<img	src='./pic/slider_stories_next.png'>"
         ]
 
     });
@@ -30,8 +30,8 @@ $(document).ready(function() {
         itemsDesktopSmall: [979,2],
         navigation: true,
         navigationText: [
-            "<img	src='../pic/slider_stories_prev.png'>",
-            "<img	src='../pic/slider_stories_next.png'>"
+            "<img	src='./pic/slider_stories_prev.png'>",
+            "<img	src='./pic/slider_stories_next.png'>"
         ]
 
     });
