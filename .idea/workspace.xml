@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e018d6-8fd4-45ce-b207-eb486563a4bd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/clickPriority.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/style.css" afterPath="$PROJECT_DIR$/src/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/stories_sliders.js" afterPath="$PROJECT_DIR$/src/js/stories_sliders.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/index.html" afterPath="$PROJECT_DIR$/src/pages/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/components/_buttons.scss" afterPath="$PROJECT_DIR$/src/sass/components/_buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/blocks/benefits.html" afterPath="$PROJECT_DIR$/src/templates/blocks/benefits.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/blocks/head_main.html" afterPath="$PROJECT_DIR$/src/templates/blocks/head_main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/blocks/slider_clients.html" afterPath="$PROJECT_DIR$/src/templates/blocks/slider_clients.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/blocks/stories_under_sun.html" afterPath="$PROJECT_DIR$/src/templates/blocks/stories_under_sun.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/forms/variants_catalog.html" afterPath="$PROJECT_DIR$/src/templates/forms/variants_catalog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/head.html" afterPath="$PROJECT_DIR$/src/templates/head.html" />
     </list>
     <ignored path="web_ver.2.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,7 +61,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stories_sliders.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="stories_sliders.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/stories_sliders.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="583">
@@ -83,21 +81,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16875">
-              <caret line="625" column="7" selection-start-line="625" selection-start-column="7" selection-end-line="625" selection-end-column="7" />
-              <folding>
-                <marker date="1477336548520" expanded="true" signature="31:29425" ph="..." />
-                <marker date="1477336548520" expanded="true" signature="910:29425" ph="..." />
-                <marker date="1477336548520" expanded="true" signature="4240:7008" ph="..." />
-                <marker date="1477336548520" expanded="true" signature="4268:6997" ph="..." />
-                <marker date="1477336548520" expanded="true" signature="4308:6986" ph="..." />
-                <marker date="1477336548520" expanded="true" signature="4451:6971" ph="..." />
-                <marker date="1477336548520" expanded="true" signature="4479:6950" ph="..." />
-                <marker date="1477336548520" expanded="true" signature="6737:6767" ph="..." />
-              </folding>
+            <state relative-caret-position="186">
+              <caret line="70" column="33" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -185,12 +174,12 @@
         <option value="$PROJECT_DIR$/src/sass/blocks/_stories_under_sun.scss" />
         <option value="$PROJECT_DIR$/src/sass/blocks/_head_main.scss" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/src/pages/index.html" />
         <option value="$PROJECT_DIR$/src/templates/head.html" />
         <option value="$PROJECT_DIR$/src/js/clickPriority.js" />
         <option value="$PROJECT_DIR$/src/templates/forms/variants_catalog.html" />
         <option value="$PROJECT_DIR$/src/sass/components/_buttons.scss" />
         <option value="$PROJECT_DIR$/src/js/stories_sliders.js" />
+        <option value="$PROJECT_DIR$/src/pages/index.html" />
       </list>
     </option>
   </component>
@@ -495,7 +484,7 @@
       <workItem from="1477086564053" duration="991000" />
       <workItem from="1477139476504" duration="28777000" />
       <workItem from="1477308920370" duration="4038000" />
-      <workItem from="1477332029806" duration="4600000" />
+      <workItem from="1477332029806" duration="5037000" />
     </task>
     <task id="LOCAL-00001" summary="first iteration - index.html">
       <created>1477228937301</created>
@@ -560,11 +549,18 @@
       <option name="project" value="LOCAL" />
       <updated>1477249970208</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added script for priority">
+      <created>1477337424411</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1477337424411</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="255299000" />
+    <option name="totallyTimeSpent" value="255736000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -583,6 +579,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2806604" sideWeight="0.46859902" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32829374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2580645" sideWeight="0.50080514" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37041035" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -596,7 +593,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32829374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -619,7 +615,8 @@
     <MESSAGE value="changed some path" />
     <MESSAGE value="deleted empty spaces" />
     <MESSAGE value="fixed font syntax" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed font syntax" />
+    <MESSAGE value="added script for priority" />
+    <option name="LAST_COMMIT_MESSAGE" value="added script for priority" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -871,23 +868,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16875">
-          <caret line="625" column="7" selection-start-line="625" selection-start-column="7" selection-end-line="625" selection-end-column="7" />
-          <folding>
-            <marker date="1477336548520" expanded="true" signature="31:29425" ph="..." />
-            <marker date="1477336548520" expanded="true" signature="910:29425" ph="..." />
-            <marker date="1477336548520" expanded="true" signature="4240:7008" ph="..." />
-            <marker date="1477336548520" expanded="true" signature="4268:6997" ph="..." />
-            <marker date="1477336548520" expanded="true" signature="4308:6986" ph="..." />
-            <marker date="1477336548520" expanded="true" signature="4451:6971" ph="..." />
-            <marker date="1477336548520" expanded="true" signature="4479:6950" ph="..." />
-            <marker date="1477336548520" expanded="true" signature="6737:6767" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/blocks/stories_under_sun.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -964,6 +944,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="583">
           <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="70" column="33" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
           <folding />
         </state>
       </provider>
