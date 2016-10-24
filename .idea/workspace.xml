@@ -4,11 +4,8 @@
     <list default="true" id="83e018d6-8fd4-45ce-b207-eb486563a4bd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/index.html" afterPath="$PROJECT_DIR$/src/pages/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/blocks/benefits.html" afterPath="$PROJECT_DIR$/src/templates/blocks/benefits.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/blocks/head_main.html" afterPath="$PROJECT_DIR$/src/templates/blocks/head_main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/blocks/slider_clients.html" afterPath="$PROJECT_DIR$/src/templates/blocks/slider_clients.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/blocks/stories_under_sun.html" afterPath="$PROJECT_DIR$/src/templates/blocks/stories_under_sun.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/forms/variants_catalog.html" afterPath="$PROJECT_DIR$/src/templates/forms/variants_catalog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/footer.html" afterPath="$PROJECT_DIR$/src/templates/footer.html" />
     </list>
     <ignored path="web_ver.2.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="186">
-              <caret line="70" column="33" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
+              <caret line="422" column="44" selection-start-line="422" selection-start-column="44" selection-end-line="422" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -101,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stories_under_sun.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="stories_under_sun.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/templates/blocks/stories_under_sun.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="66">
+              <caret line="74" column="37" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -168,7 +165,6 @@
         <option value="$PROJECT_DIR$/node_modules/browser-sync-ui/public/img/icons/preview.html" />
         <option value="$PROJECT_DIR$/node_modules/html-comment-regex/README.md" />
         <option value="$PROJECT_DIR$/node_modules/jsbn/example.html" />
-        <option value="$PROJECT_DIR$/src/templates/blocks/stories_under_sun.html" />
         <option value="$PROJECT_DIR$/src/sass/components/_header.scss" />
         <option value="$PROJECT_DIR$/src/sass/forms/_variants_catalog.scss" />
         <option value="$PROJECT_DIR$/src/sass/blocks/_stories_under_sun.scss" />
@@ -180,6 +176,7 @@
         <option value="$PROJECT_DIR$/src/sass/components/_buttons.scss" />
         <option value="$PROJECT_DIR$/src/js/stories_sliders.js" />
         <option value="$PROJECT_DIR$/src/pages/index.html" />
+        <option value="$PROJECT_DIR$/src/templates/blocks/stories_under_sun.html" />
       </list>
     </option>
   </component>
@@ -297,6 +294,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web_ver.2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_ver.2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_ver.2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_ver.2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_ver.2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blocks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -484,7 +521,7 @@
       <workItem from="1477086564053" duration="991000" />
       <workItem from="1477139476504" duration="28777000" />
       <workItem from="1477308920370" duration="4038000" />
-      <workItem from="1477332029806" duration="5037000" />
+      <workItem from="1477332029806" duration="5421000" />
     </task>
     <task id="LOCAL-00001" summary="first iteration - index.html">
       <created>1477228937301</created>
@@ -556,11 +593,18 @@
       <option name="project" value="LOCAL" />
       <updated>1477337424411</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="changed img/pic path">
+      <created>1477337846564</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1477337846565</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="255736000" />
+    <option name="totallyTimeSpent" value="256120000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -616,7 +660,8 @@
     <MESSAGE value="deleted empty spaces" />
     <MESSAGE value="fixed font syntax" />
     <MESSAGE value="added script for priority" />
-    <option name="LAST_COMMIT_MESSAGE" value="added script for priority" />
+    <MESSAGE value="changed img/pic path" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed img/pic path" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -868,14 +913,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/blocks/stories_under_sun.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/head.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -951,7 +988,15 @@
     <entry file="file://$PROJECT_DIR$/src/pages/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
-          <caret line="70" column="33" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
+          <caret line="422" column="44" selection-start-line="422" selection-start-column="44" selection-end-line="422" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/blocks/stories_under_sun.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="74" column="37" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
           <folding />
         </state>
       </provider>
