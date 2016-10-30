@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83e018d6-8fd4-45ce-b207-eb486563a4bd" name="Default" comment="variants catalog - added range slider">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/sliderVariants.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/js/stories_sliders.js" afterPath="$PROJECT_DIR$/src/js/storiesSliders.js" />
+    <list default="true" id="83e018d6-8fd4-45ce-b207-eb486563a4bd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/style.css" afterPath="$PROJECT_DIR$/src/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/clickPriority.js" afterPath="$PROJECT_DIR$/src/js/clickPriority.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/index.html" afterPath="$PROJECT_DIR$/src/pages/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/index.tmpl.html" afterPath="$PROJECT_DIR$/src/pages/index.tmpl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/components/_header.scss" afterPath="$PROJECT_DIR$/src/sass/components/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/forms/_variants_catalog.scss" afterPath="$PROJECT_DIR$/src/sass/forms/_variants_catalog.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/blocks/head_main.html" afterPath="$PROJECT_DIR$/src/templates/blocks/head_main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/forms/variants_catalog.html" afterPath="$PROJECT_DIR$/src/templates/forms/variants_catalog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/head.html" afterPath="$PROJECT_DIR$/src/templates/head.html" />
     </list>
     <ignored path="web_ver.2.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -678,7 +667,7 @@
       <workItem from="1477599403080" duration="2004000" />
       <workItem from="1477659761551" duration="3203000" />
       <workItem from="1477691710417" duration="602000" />
-      <workItem from="1477771999485" duration="20221000" />
+      <workItem from="1477771999485" duration="20302000" />
     </task>
     <task id="LOCAL-00001" summary="first iteration - index.html">
       <created>1477228937301</created>
@@ -771,11 +760,18 @@
       <option name="project" value="LOCAL" />
       <updated>1477473681140</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="variants catalog - added range slider">
+      <created>1477865420619</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1477865420619</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="287649000" />
+    <option name="totallyTimeSpent" value="287730000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
