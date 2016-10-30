@@ -45,6 +45,10 @@
             padding-left: 1em;
             -webkit-appearance: none;
             -moz-appearance: none;
+            &:hover {
+              cursor: pointer;
+              color: #868584;
+            }
           }
         }
         .header__consultation {

@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('#click-priority').click(function () {
+    $('#priority-click').click(function () {
         var target = $('#target');
         var destination = $('#destination');
 

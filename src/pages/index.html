@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../owl-carousel/owl.carousel.css">
     <link rel="stylesheet" href="../owl-carousel/owl.theme.css">
+    <link rel="stylesheet" href="../ion-rangeslider/css/ion.rangeSlider.css">
+    <link rel="stylesheet" href="../ion-rangeslider/css/ion.rangeSlider.skinHTML5.css">
     <link href="https://fonts.googleapis.com/css?family=Exo+2:100,300,400,700|Ubuntu:300" rel="stylesheet">
 </head>
 <body>
@@ -57,9 +59,7 @@
 <section class="head__main">
     <div class="container">
         <div class="logo">
-            <a href="#">
-                <img src="../img/logo.png" alt="logo_not_found">
-            </a>
+            <img src="../img/logo.png" alt="logo_not_found">
         </div>
             <ul class="features clearfix">
                <li>
@@ -113,9 +113,9 @@
 
                 <fieldset>
                     <label for="target">
-                        <a href="#" id="click-priority">
+                        <a href="#" id="priority-click">
                             <img src="../pic/priority_sign.png" alt="img_not_found">
-                            <span>приоритет</span>
+                            <span class="priority-text">приоритет</span>
                         </a>
                     </label>
                     <select name="target" title="Цель" id="target">
@@ -133,6 +133,14 @@
                         <option value="england">Англия</option>
                         <option value="asia">Азия</option>
                     </select>
+
+                    <div class="range__slider">
+                        <label for="range__budget">
+                            <input type="text" id="range__budget" name="budget" value="" />
+                            <span class="range__budget--min">min</span>
+                            <span class="range__budget--max">max</span>
+                        </label>
+                    </div>
 
                     <select name="language" title="Выбор языка" id="language">
                         <option disabled selected>Требуемый язык</option>
@@ -622,6 +630,8 @@
 
 <script src="../owl-carousel/jquery.min.js"></script>
 <script src="../owl-carousel/owl.carousel.min.js"></script>
-<script src="../js/stories_sliders.js"></script>
+<script src="../js/storiesSliders.js"></script>
 <script src="../js/clickPriority.js"></script>
+<script src="../ion-rangeslider/ion.rangeSlider.min.js"></script>
+<script src="../js/sliderVariants.js"></script>
 </body>

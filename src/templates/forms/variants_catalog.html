@@ -8,9 +8,9 @@
 
                 <fieldset>
                     <label for="target">
-                        <a href="#" id="click-priority">
+                        <a href="#" id="priority-click">
                             <img src="../pic/priority_sign.png" alt="img_not_found">
-                            <span>приоритет</span>
+                            <span class="priority-text">приоритет</span>
                         </a>
                     </label>
                     <select name="target" title="Цель" id="target">
@@ -28,6 +28,14 @@
                         <option value="england">Англия</option>
                         <option value="asia">Азия</option>
                     </select>
+
+                    <div class="range__slider">
+                        <label for="range__budget">
+                            <input type="text" id="range__budget" name="budget" value="" />
+                            <span class="range__budget--min">min</span>
+                            <span class="range__budget--max">max</span>
+                        </label>
+                    </div>
 
                     <select name="language" title="Выбор языка" id="language">
                         <option disabled selected>Требуемый язык</option>
