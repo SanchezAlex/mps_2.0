@@ -26,14 +26,14 @@ gulp.task('browser-sync', function() {
     });
     gulp.watch("./src/**/*.*").on('change', browserSync.reload);
     gulp.watch(['./src/templates/**/*.html', './src/pages/**/*.html'], ['template']);
-    gulp.watch('./src/sass/**/*', ['sass']);
+    gulp.watch('./src/sass/**/*.scss', ['sass']);
 });
 
 gulp.task('sass', function () {
     gulp.src(['./src/sass/**/*.scss', './src/sass/**/*.sass'])
         .pipe(sourcemaps.init())
         .pipe(sass({
-            outputStyle: 'expanded'
+            outputStyle:'expanded'
         }).on('error', gutil.log))
         .on('error', notify.onError())
         .pipe(sourcemaps.write())

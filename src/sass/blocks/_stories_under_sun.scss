@@ -14,10 +14,10 @@
       text-transform: uppercase;
     }
     .stories__all {
-      width: 10%;
+      width: 7em;
       position: absolute;
-      top: 8%;
-      right: 1%;
+      top: 3em;
+      right: 1em;
       display: block;
       a {
         display: block;
@@ -158,6 +158,9 @@
         &:hover {
           background-color: rgba(255, 165, 0, 0.8);
         }
+      }
+      .owl-theme .owl-controls {
+        margin-top: 0;
       }
     }
   }

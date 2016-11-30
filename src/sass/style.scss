@@ -1,12 +1,14 @@
-@import "_layout.scss";
+@import "layout";
 
-@import "components/_header.scss";
-@import "components/_footer.scss";
-@import "components/_buttons.scss";
+@import "components/header";
+@import "components/footer";
+@import "components/buttons";
 
-@import "blocks/_head_main.scss";
-@import "blocks/_slider_institutions.scss";
-@import "blocks/_stories_under_sun.scss";
-@import "blocks/_benefits.scss";
+@import "blocks/head_main";
+@import "blocks/slider_institutions";
+@import "blocks/stories_under_sun";
+@import "blocks/stories_under_sun_2";
+@import "blocks/benefits";
+@import "blocks/about_us";
 
-@import "forms/_variants_catalog.scss";
+@import "forms/variants_catalog";

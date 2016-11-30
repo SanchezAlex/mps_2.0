@@ -38,10 +38,8 @@
           width: 100%;
           padding-top: 1em;
           display: flex;
+          flex-direction: row;
           justify-content: space-between;
-          .benefits__img--main {
-            width: 33%;
-          }
         }
       }
     }
