@@ -2,31 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e018d6-8fd4-45ce-b207-eb486563a4bd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/stories_1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/stories_1.tmpl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/stories_2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/stories_2.tmpl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sass/blocks/_about_us.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sass/blocks/_stories_under_sun_2.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/blocks/stories_under_sun_1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/blocks/stories_under_sun_2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/style.css" afterPath="$PROJECT_DIR$/src/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ion-rangeslider/ion.rangeSlider.min.js" afterPath="$PROJECT_DIR$/src/ion-rangeslider/ion.rangeSlider.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/storiesSliders.js" afterPath="$PROJECT_DIR$/src/js/storiesSliders.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/about_us.html" afterPath="$PROJECT_DIR$/src/pages/about_us.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/about_us.tmpl.html" afterPath="$PROJECT_DIR$/src/pages/about_us.tmpl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/index.html" afterPath="$PROJECT_DIR$/src/pages/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/_layout.scss" afterPath="$PROJECT_DIR$/src/sass/_layout.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/blocks/_benefits.scss" afterPath="$PROJECT_DIR$/src/sass/blocks/_benefits.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/blocks/_head_main.scss" afterPath="$PROJECT_DIR$/src/sass/blocks/_head_main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/blocks/_stories_under_sun.scss" afterPath="$PROJECT_DIR$/src/sass/blocks/_stories_under_sun.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/style.scss" afterPath="$PROJECT_DIR$/src/sass/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/blocks/benefits.html" afterPath="$PROJECT_DIR$/src/templates/blocks/benefits.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/blocks/stories_under_sun.html" afterPath="$PROJECT_DIR$/src/templates/blocks/stories_under_sun.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/header.html" afterPath="$PROJECT_DIR$/src/templates/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/blocks/_stories_under_sun_2.scss" afterPath="$PROJECT_DIR$/src/sass/blocks/_stories_under_sun_2.scss" />
     </list>
     <ignored path="web_ver.2.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -135,11 +114,21 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="about_us.tmpl.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="about_us.tmpl.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/pages/about_us.tmpl.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="860">
+                <state relative-caret-position="1431">
                   <caret line="53" column="27" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_stories_under_sun_2.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/sass/blocks/_stories_under_sun_2.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="540">
+                  <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -148,7 +137,7 @@
           <file leaf-file-name="storiesSliders.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/js/storiesSliders.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="756">
+                <state relative-caret-position="517">
                   <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
                   <folding />
                 </state>
@@ -208,7 +197,6 @@
         <option value="$PROJECT_DIR$/src/pages/stories_2.tmpl.html" />
         <option value="$PROJECT_DIR$/src/js/storiesSliders.js" />
         <option value="$PROJECT_DIR$/src/templates/blocks/stories_under_sun_2.html" />
-        <option value="$PROJECT_DIR$/src/sass/blocks/_stories_under_sun_2.scss" />
         <option value="$PROJECT_DIR$/src/pages/stories_1.tmpl.html" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/src/templates/blocks/stories_under_sun_1.html" />
@@ -226,6 +214,7 @@
         <option value="$PROJECT_DIR$/src/pages/about_us.tmpl.html" />
         <option value="$PROJECT_DIR$/src/sass/blocks/_about_us.scss" />
         <option value="$PROJECT_DIR$/src/sass/blocks/_stories_under_sun.scss" />
+        <option value="$PROJECT_DIR$/src/sass/blocks/_stories_under_sun_2.scss" />
       </list>
     </option>
   </component>
@@ -650,7 +639,7 @@
       <workItem from="1480345211425" duration="1211000" />
       <workItem from="1480347477031" duration="6263000" />
       <workItem from="1480413115168" duration="16977000" />
-      <workItem from="1480524814441" duration="74000" />
+      <workItem from="1480524814441" duration="435000" />
     </task>
     <task id="LOCAL-00001" summary="first iteration - index.html">
       <created>1477228937301</created>
@@ -757,11 +746,18 @@
       <option name="project" value="LOCAL" />
       <updated>1477865534247</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="pages. added stories_1.html and stories_2.html">
+      <created>1480525015841</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1480525015841</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="350480000" />
+    <option name="totallyTimeSpent" value="350841000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -774,15 +770,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="24" width="1857" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Gulp" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16630316" sideWeight="0.49253732" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16630316" sideWeight="0.5074627" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16630316" sideWeight="0.49056605" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16630316" sideWeight="0.509434" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2324263" sideWeight="0.58207345" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36792454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36792454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32589287" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2580645" sideWeight="0.50080514" order="3" side_tool="true" content_ui="tabs" />
@@ -842,7 +838,8 @@
     <MESSAGE value="fixed target syntax" />
     <MESSAGE value="moved js-scripts before &lt;/body&gt;" />
     <MESSAGE value="variants catalog - added range slider" />
-    <option name="LAST_COMMIT_MESSAGE" value="variants catalog - added range slider" />
+    <MESSAGE value="pages. added stories_1.html and stories_2.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="pages. added stories_1.html and stories_2.html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1009,13 +1006,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/blocks/_stories_under_sun_2.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1134">
@@ -1037,6 +1027,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1044,6 +1035,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="837">
           <caret line="60" column="59" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1051,6 +1043,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1836">
           <caret line="68" column="14" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1058,6 +1051,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1080,13 +1074,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/storiesSliders.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1127,6 +1114,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1155,6 +1143,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1162,13 +1151,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="81" column="41" selection-start-line="81" selection-start-column="41" selection-end-line="81" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/about_us.tmpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="53" column="27" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1185,6 +1167,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="603">
           <caret line="161" column="17" selection-start-line="161" selection-start-column="17" selection-end-line="161" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/storiesSliders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/about_us.tmpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1431">
+          <caret line="53" column="27" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/blocks/_stories_under_sun_2.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
           <folding />
         </state>
       </provider>
