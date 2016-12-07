@@ -1,0 +1,47 @@
+.nav_menu {
+  width: 23%;
+  margin-top: 98px;
+  float: left;
+  .variants_catalog {
+    border: 1px solid #9fa0a0;
+    p {
+      padding: 16px 29px 11px 26px;
+      color: #9fa0a0;
+      font-family: 'Exo2', sans-serif;
+      font-size: 1em;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+  ul {
+    margin-top: 33px;
+    li {
+      margin-top: 3px;
+      a {
+        display: block;
+        padding: 15px 0 13px 36px;
+        color: #4d5153;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 1em;
+        font-weight: 300;
+        line-height: 20px;
+      }
+    }
+    a:hover {
+      position: relative;
+      background-color: #face36;
+      color: #19130e;
+      font-family: 'Exo2', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 20px;
+    }
+    a:before {
+      content: url("../../pic/nav_menu_arrow.png");
+      position: absolute;
+      top: 4px;
+      left: 7px;
+      line-height: 4;
+    }
+  }
+}
