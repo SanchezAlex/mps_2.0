@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83e018d6-8fd4-45ce-b207-eb486563a4bd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sass/aside/_nav_menu.scss" />
+    <list default="true" id="83e018d6-8fd4-45ce-b207-eb486563a4bd" name="Default" comment="finished about us page">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/style.css" afterPath="$PROJECT_DIR$/src/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ion-rangeslider/ion.rangeSlider.min.js" afterPath="$PROJECT_DIR$/src/ion-rangeslider/ion.rangeSlider.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/about_us.html" afterPath="$PROJECT_DIR$/src/pages/about_us.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/about_us.tmpl.html" afterPath="$PROJECT_DIR$/src/pages/about_us.tmpl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/blocks/_about_us.scss" afterPath="$PROJECT_DIR$/src/sass/blocks/_about_us.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/blocks/_stories_under_sun.scss" afterPath="$PROJECT_DIR$/src/sass/blocks/_stories_under_sun.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/style.scss" afterPath="$PROJECT_DIR$/src/sass/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/aside/nav_menu.html" afterPath="$PROJECT_DIR$/src/templates/aside/nav_menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/aside/_nav_menu.scss" afterPath="$PROJECT_DIR$/src/sass/aside/_nav_menu.scss" />
     </list>
     <ignored path="web_ver.2.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,7 +50,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_about_us.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_about_us.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/sass/blocks/_about_us.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="459">
@@ -67,11 +60,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_nav_menu.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="_nav_menu.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/sass/aside/_nav_menu.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="108">
-                  <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+                <state relative-caret-position="567">
+                  <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -127,7 +120,7 @@
                 <state relative-caret-position="24408">
                   <caret line="904" column="0" selection-start-line="904" selection-start-column="0" selection-end-line="904" selection-end-column="0" />
                   <folding>
-                    <marker date="1481145796343" expanded="true" signature="21292:21332" ph="{...}" />
+                    <marker date="1481146261098" expanded="true" signature="21292:21332" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -221,9 +214,9 @@
         <option value="$PROJECT_DIR$/src/sass/blocks/_stories_under_sun.scss" />
         <option value="$PROJECT_DIR$/src/sass/style.scss" />
         <option value="$PROJECT_DIR$/src/templates/aside/nav_menu.html" />
-        <option value="$PROJECT_DIR$/src/sass/aside/_nav_menu.scss" />
         <option value="$PROJECT_DIR$/src/pages/about_us.tmpl.html" />
         <option value="$PROJECT_DIR$/src/sass/blocks/_about_us.scss" />
+        <option value="$PROJECT_DIR$/src/sass/aside/_nav_menu.scss" />
       </list>
     </option>
   </component>
@@ -701,7 +694,7 @@
       <workItem from="1481041134219" duration="4430000" />
       <workItem from="1481058595087" duration="786000" />
       <workItem from="1481116837111" duration="11998000" />
-      <workItem from="1481144079716" duration="1486000" />
+      <workItem from="1481144079716" duration="1812000" />
     </task>
     <task id="LOCAL-00001" summary="first iteration - index.html">
       <created>1477228937301</created>
@@ -822,11 +815,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480525271329</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="finished about us page">
+      <created>1481146018800</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1481146018800</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="388802000" />
+    <option name="totallyTimeSpent" value="389128000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -909,7 +909,8 @@
     <MESSAGE value="variants catalog - added range slider" />
     <MESSAGE value="pages. added stories_1.html and stories_2.html" />
     <MESSAGE value="pages. added stories_1.html and stories_2.html - fix img" />
-    <option name="LAST_COMMIT_MESSAGE" value="pages. added stories_1.html and stories_2.html - fix img" />
+    <MESSAGE value="finished about us page" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished about us page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1220,7 +1221,7 @@
         <state relative-caret-position="24408">
           <caret line="904" column="0" selection-start-line="904" selection-start-column="0" selection-end-line="904" selection-end-column="0" />
           <folding>
-            <marker date="1481145796343" expanded="true" signature="21292:21332" ph="{...}" />
+            <marker date="1481146261098" expanded="true" signature="21292:21332" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1247,14 +1248,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/aside/_nav_menu.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/about_us.tmpl.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
@@ -1267,6 +1260,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/aside/_nav_menu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
           <folding />
         </state>
       </provider>
