@@ -1,0 +1,127 @@
+.advices {
+  background-color: #fff;
+  .container {
+    .logo {
+      margin-top: 8px;
+      margin-left: 1%;
+      position: absolute;
+    }
+    .category__container {
+      float: left;
+      width: 72%;
+      margin-left: 2%;
+      margin-top: 15px;
+      border-left: 1px solid #f5ca38;
+      border-right: 1px solid #f5ca38;
+      .navigation {
+        display: inline;
+        padding: 9px 0 0 39px;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 12px;
+        font-weight: 300;
+        a, .slash {
+          color: #a3a3a3;
+        }
+        .current__page{
+          color: #4d5153;
+        }
+      }
+      .category__title {
+        padding: 16px 0 0 18px;
+        h1 {
+          width: 17%;
+          margin: 0;
+          padding: 15px 29px 16px 12px;
+          background-color: #f5ca38;
+          color: #221d1d;
+          font-family: 'Exo2', sans-serif;
+          font-size: 32px;
+          font-weight: 700;
+          line-height: 36px;
+          text-transform: uppercase;
+        }
+      }
+      .category__main {
+        padding: 33px 31px 7px 43px;
+        .advice-1 {
+          h2 {
+            display: inline-block;
+            margin-top: 16px;
+            padding-left: 2px;
+            color: #010101;
+            font-family: 'Exo2', sans-serif;
+            font-size: 24px;
+            font-weight: 400;
+          }
+          .author__date {
+            padding: 8px 0 8px 2px;
+            color: #9fa0a0;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 36px;
+          }
+          .advice__img__wrap {
+            display: block;
+            padding: 7px 0 10px;
+          }
+          .advice__description {
+            padding: 12px 21px 10px 0;
+            color: #010101;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 22px;
+          }
+          .advice__social {
+            display: inline-block;
+            padding: 10px 0 0;
+            width: 100%;
+            .share__friends {
+              display: inline-block;
+              color: #9fa0a0;
+              font-family: 'Ubuntu', sans-serif;
+              font-size: 14px;
+              font-weight: 300;
+              .social__icons {
+                margin: 0 12px;
+                color: #999;
+                font-size: 12px;
+                font-weight: 400;
+                span {
+                  padding-left: 4px;
+                }
+              }
+            }
+            .read__more {
+              display: inline-block;
+              padding-right: 19px;
+              position: relative;
+              float: right;
+              color: #423d37;
+              font-family: 'Ubuntu', sans-serif;
+              font-size: 16px;
+              font-weight: 300;
+            }
+            .read__more::after {
+              position: absolute;
+              top: 0;
+              right: 0;
+              width: 9px;
+              height: 19px;
+              content: '';
+              background: url(../pic/all_stories_arrow.png) no-repeat 100% 1px;
+            }
+          }
+          hr {
+            margin: 7px 0 16px;
+            height: 6px;
+            border: 0;
+            background-color: #f5ca38;
+          }
+        }
+      }
+    }
+    @import "../aside/nav_menu";
+  }
+}

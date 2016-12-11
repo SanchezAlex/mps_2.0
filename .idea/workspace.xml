@@ -1,11 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83e018d6-8fd4-45ce-b207-eb486563a4bd" name="Default" comment="finished about us page">
+    <list default="true" id="83e018d6-8fd4-45ce-b207-eb486563a4bd" name="Default" comment="finished about us page - fixed arrow">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/customScroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sass/blocks/_advices.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ion-rangeslider/css/ion.rangeSlider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ion-rangeslider/css/ion.rangeSlider.skinFlat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ion-rangeslider/css/ion.rangeSlider.skinHTML5.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ion-rangeslider/css/ion.rangeSlider.skinModern.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ion-rangeslider/css/ion.rangeSlider.skinNice.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ion-rangeslider/css/ion.rangeSlider.skinSimple.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ion-rangeslider/css/normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ion-rangeslider/ion.rangeSlider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/owl-carousel/AjaxLoader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/owl-carousel/grabbing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/owl-carousel/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/owl-carousel/owl.carousel.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/owl-carousel/owl.carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/owl-carousel/owl.carousel.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/owl-carousel/owl.theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/owl-carousel/owl.transitions.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pic/all_stories_arrow.png" afterPath="$PROJECT_DIR$/src/pic/all_stories_arrow.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/style.css" afterPath="$PROJECT_DIR$/src/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ion-rangeslider/ion.rangeSlider.min.js" afterPath="$PROJECT_DIR$/src/ion-rangeslider/ion.rangeSlider.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/aside/_nav_menu.scss" afterPath="$PROJECT_DIR$/src/sass/aside/_nav_menu.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/about_us.html" afterPath="$PROJECT_DIR$/src/pages/about_us.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/about_us.tmpl.html" afterPath="$PROJECT_DIR$/src/pages/about_us.tmpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/advices.html" afterPath="$PROJECT_DIR$/src/pages/advices.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/advices.tmpl.html" afterPath="$PROJECT_DIR$/src/pages/advices.tmpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/index.html" afterPath="$PROJECT_DIR$/src/pages/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/index.tmpl.html" afterPath="$PROJECT_DIR$/src/pages/index.tmpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/stories_1.html" afterPath="$PROJECT_DIR$/src/pages/stories_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/stories_1.tmpl.html" afterPath="$PROJECT_DIR$/src/pages/stories_1.tmpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/stories_2.html" afterPath="$PROJECT_DIR$/src/pages/stories_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/stories_2.tmpl.html" afterPath="$PROJECT_DIR$/src/pages/stories_2.tmpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/blocks/_about_us.scss" afterPath="$PROJECT_DIR$/src/sass/blocks/_about_us.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/components/_footer.scss" afterPath="$PROJECT_DIR$/src/sass/components/_footer.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/style.scss" afterPath="$PROJECT_DIR$/src/sass/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/footer.html" afterPath="$PROJECT_DIR$/src/templates/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/head.html" afterPath="$PROJECT_DIR$/src/templates/head.html" />
     </list>
     <ignored path="web_ver.2.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,19 +65,38 @@
           <file leaf-file-name="index.tmpl.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/pages/index.tmpl.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                <state relative-caret-position="540">
+                  <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="benefits.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/templates/blocks/benefits.html">
+          <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/sass/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="594">
-                  <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+                <state relative-caret-position="405">
+                  <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="advices.tmpl.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/pages/advices.tmpl.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="810">
+                  <caret line="286" column="22" selection-start-line="286" selection-start-column="22" selection-end-line="286" selection-end-column="22" />
+                  <folding>
+                    <element signature="n#div#0;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#!!top" expanded="false" />
+                    <element signature="n#div#1;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#!!top" expanded="false" />
+                    <element signature="n#div#2;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#!!top" expanded="false" />
+                    <element signature="n#div#3;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#!!top" expanded="false" />
+                    <element signature="n#div#4;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#!!top" expanded="false" />
+                    <element signature="n#div#5;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#!!top" expanded="false" />
+                    <element signature="n#div#6;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#!!top" expanded="false" />
+                    <element signature="n#div#7;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#!!top" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -53,18 +104,8 @@
           <file leaf-file-name="_about_us.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/sass/blocks/_about_us.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="459">
-                  <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_nav_menu.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/sass/aside/_nav_menu.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="567">
-                  <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+                <state relative-caret-position="486">
+                  <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -94,11 +135,33 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="about_us.tmpl.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="about_us.tmpl.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/pages/about_us.tmpl.html">
               <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="297">
+                  <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+                  <folding>
+                    <element signature="n#div#0;n#div#0;n#section#0;n#body#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_advices.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/sass/blocks/_advices.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="432">
+                  <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_layout.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/sass/_layout.scss">
+              <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="486">
-                  <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+                  <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -114,23 +177,33 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="_stories_under_sun_2.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/sass/blocks/_stories_under_sun_2.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2646">
+                  <caret line="98" column="4" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="24408">
-                  <caret line="904" column="0" selection-start-line="904" selection-start-column="0" selection-end-line="904" selection-end-column="0" />
+                <state relative-caret-position="30267">
+                  <caret line="1123" column="0" selection-start-line="1123" selection-start-column="0" selection-end-line="1123" selection-end-column="0" />
                   <folding>
-                    <marker date="1481146261098" expanded="true" signature="21292:21332" ph="{...}" />
+                    <marker date="1481457282304" expanded="true" signature="222:249" ph="{...}" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_stories_under_sun_2.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sass/blocks/_stories_under_sun_2.scss">
+          <file leaf-file-name="stories_2.tmpl.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/pages/stories_2.tmpl.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="540">
-                  <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+                <state relative-caret-position="486">
+                  <caret line="18" column="88" selection-start-line="18" selection-start-column="88" selection-end-line="18" selection-end-column="88" />
                   <folding />
                 </state>
               </provider>
@@ -139,8 +212,8 @@
           <file leaf-file-name="storiesSliders.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/js/storiesSliders.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="756">
-                  <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+                <state relative-caret-position="594">
+                  <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
@@ -154,8 +227,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="SCSS File" />
       </list>
     </option>
@@ -166,14 +239,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/templates/aside/nav_advices.html" />
-        <option value="$PROJECT_DIR$/src/templates/aside/options_catalog.html" />
-        <option value="$PROJECT_DIR$/src/pages/home.tmpl.html" />
-        <option value="$PROJECT_DIR$/src/js/variants_catalog.js" />
         <option value="$PROJECT_DIR$/src/templates/aside/variants_catalog.html" />
         <option value="$PROJECT_DIR$/src/sass/aside/_variants_catalog.scss" />
         <option value="$PROJECT_DIR$/src/js/stories_slider.js" />
-        <option value="$PROJECT_DIR$/src/templates/footer.html" />
         <option value="$PROJECT_DIR$/src/css/style.css" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/node_modules/browser-sync-ui/public/img/icons/preview.html" />
@@ -184,8 +252,6 @@
         <option value="$PROJECT_DIR$/src/js/stories_sliders.js" />
         <option value="$PROJECT_DIR$/src/templates/blocks/head_main.html" />
         <option value="$PROJECT_DIR$/src/sass/components/_header.scss" />
-        <option value="$PROJECT_DIR$/src/templates/head.html" />
-        <option value="$PROJECT_DIR$/src/pages/index.tmpl.html" />
         <option value="$PROJECT_DIR$/src/js/clickPriority.js" />
         <option value="$PROJECT_DIR$/src/templates/forms/variants_catalog.html" />
         <option value="$PROJECT_DIR$/src/js/sliderVariants.js" />
@@ -194,15 +260,12 @@
         <option value="$PROJECT_DIR$/src/pages/index.html" />
         <option value="$PROJECT_DIR$/src/sass/blocks/_head_main.scss" />
         <option value="$PROJECT_DIR$/src/pages/stories_2.html" />
-        <option value="$PROJECT_DIR$/src/pages/stories_2.tmpl.html" />
         <option value="$PROJECT_DIR$/src/js/storiesSliders.js" />
         <option value="$PROJECT_DIR$/src/templates/blocks/stories_under_sun_2.html" />
-        <option value="$PROJECT_DIR$/src/pages/stories_1.tmpl.html" />
         <option value="$PROJECT_DIR$/src/templates/blocks/stories_under_sun_1.html" />
         <option value="$PROJECT_DIR$/src/sass/blocks/_stories_under_sun_1.scss" />
         <option value="$PROJECT_DIR$/src/templates/blocks/stories_under_sun.html" />
         <option value="$PROJECT_DIR$/src/templates/header.html" />
-        <option value="$PROJECT_DIR$/src/sass/_layout.scss" />
         <option value="$PROJECT_DIR$/build/pages/index.html" />
         <option value="$PROJECT_DIR$/build/pages/stories_1.html" />
         <option value="$PROJECT_DIR$/build/pages/stories_2.html" />
@@ -212,11 +275,21 @@
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/src/sass/blocks/_stories_under_sun_2.scss" />
         <option value="$PROJECT_DIR$/src/sass/blocks/_stories_under_sun.scss" />
-        <option value="$PROJECT_DIR$/src/sass/style.scss" />
         <option value="$PROJECT_DIR$/src/templates/aside/nav_menu.html" />
-        <option value="$PROJECT_DIR$/src/pages/about_us.tmpl.html" />
-        <option value="$PROJECT_DIR$/src/sass/blocks/_about_us.scss" />
         <option value="$PROJECT_DIR$/src/sass/aside/_nav_menu.scss" />
+        <option value="$PROJECT_DIR$/src/templates/head.html" />
+        <option value="$PROJECT_DIR$/src/pages/index.tmpl.html" />
+        <option value="$PROJECT_DIR$/src/sass/components/_footer.scss" />
+        <option value="$PROJECT_DIR$/src/templates/footer.html" />
+        <option value="$PROJECT_DIR$/src/pages/stories_2.tmpl.html" />
+        <option value="$PROJECT_DIR$/src/pages/stories_1.tmpl.html" />
+        <option value="$PROJECT_DIR$/src/pages/about_us.tmpl.html" />
+        <option value="$PROJECT_DIR$/src/js/customScroll.js" />
+        <option value="$PROJECT_DIR$/src/sass/style.scss" />
+        <option value="$PROJECT_DIR$/src/sass/_layout.scss" />
+        <option value="$PROJECT_DIR$/src/sass/blocks/_about_us.scss" />
+        <option value="$PROJECT_DIR$/src/pages/advices.tmpl.html" />
+        <option value="$PROJECT_DIR$/src/sass/blocks/_advices.scss" />
       </list>
     </option>
   </component>
@@ -350,6 +423,20 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_ver.2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_ver.2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -435,6 +522,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_ver.2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_ver.2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="blocks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -458,20 +567,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="aside" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web_ver.2.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web_ver.2.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -490,6 +585,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_ver.2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_ver.2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -694,7 +807,10 @@
       <workItem from="1481041134219" duration="4430000" />
       <workItem from="1481058595087" duration="786000" />
       <workItem from="1481116837111" duration="11998000" />
-      <workItem from="1481144079716" duration="1812000" />
+      <workItem from="1481144079716" duration="2024000" />
+      <workItem from="1481318743521" duration="668000" />
+      <workItem from="1481387507833" duration="22667000" />
+      <workItem from="1481451314497" duration="4999000" />
     </task>
     <task id="LOCAL-00001" summary="first iteration - index.html">
       <created>1477228937301</created>
@@ -822,11 +938,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481146018800</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="finished about us page - fixed arrow">
+      <created>1481146316148</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1481146316148</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="389128000" />
+    <option name="totallyTimeSpent" value="417674000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -841,8 +964,8 @@
     <frame x="63" y="24" width="1857" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16139586" sideWeight="0.39727464" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16139586" sideWeight="0.6027254" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16139586" sideWeight="0.4129979" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16139586" sideWeight="0.5870021" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2324263" sideWeight="0.58207345" order="2" side_tool="true" content_ui="tabs" />
@@ -910,7 +1033,8 @@
     <MESSAGE value="pages. added stories_1.html and stories_2.html" />
     <MESSAGE value="pages. added stories_1.html and stories_2.html - fix img" />
     <MESSAGE value="finished about us page" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished about us page" />
+    <MESSAGE value="finished about us page - fixed arrow" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished about us page - fixed arrow" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -919,50 +1043,8 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/index.html" />
-    <entry file="file://$PROJECT_DIR$/node_modules/browser-sync-ui/public/img/icons/preview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7101">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/html-comment-regex/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="17" column="121" selection-start-line="17" selection-start-column="121" selection-end-line="17" selection-end-column="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/jsbn/example.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/sass/components/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1944">
-          <caret line="72" column="18" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/owl-carousel/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="2" column="18293" selection-start-line="2" selection-start-column="18293" selection-end-line="2" selection-end-column="18293" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/owl-carousel/jquery.min.js" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/core-scripting.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -1083,28 +1165,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/stories_2.tmpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.tmpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/stories_1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -1148,13 +1208,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/stories_1.tmpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/about_us.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -1169,26 +1222,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/_layout.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/blocks/benefits.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/blocks/_stories_under_sun.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4428">
-          <caret line="164" column="5" selection-start-line="164" selection-start-column="5" selection-end-line="164" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1197,39 +1234,6 @@
         <state relative-caret-position="810">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/blocks/_stories_under_sun_2.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/storiesSliders.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24408">
-          <caret line="904" column="0" selection-start-line="904" selection-start-column="0" selection-end-line="904" selection-end-column="0" />
-          <folding>
-            <marker date="1481146261098" expanded="true" signature="21292:21332" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1248,26 +1252,160 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/about_us.tmpl.html">
+    <entry file="file://$PROJECT_DIR$/src/js/storiesSliders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/components/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="787">
+          <caret line="72" column="18" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30267">
+          <caret line="1123" column="0" selection-start-line="1123" selection-start-column="0" selection-end-line="1123" selection-end-column="0" />
+          <folding>
+            <marker date="1481457282304" expanded="true" signature="222:249" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/stories_2.tmpl.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
-          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <caret line="18" column="88" selection-start-line="18" selection-start-column="88" selection-end-line="18" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/stories_1.tmpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/components/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="71" column="37" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/blocks/_stories_under_sun.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4428">
+          <caret line="164" column="5" selection-start-line="164" selection-start-column="5" selection-end-line="164" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/customScroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/aside/_nav_menu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/about_us.tmpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#section#0;n#body#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/blocks/_stories_under_sun_2.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2646">
+          <caret line="98" column="4" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.tmpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/_layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/blocks/_about_us.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="486">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/aside/_nav_menu.scss">
+    <entry file="file://$PROJECT_DIR$/src/pages/advices.tmpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        <state relative-caret-position="810">
+          <caret line="286" column="22" selection-start-line="286" selection-start-column="22" selection-end-line="286" selection-end-column="22" />
+          <folding>
+            <element signature="n#div#0;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/blocks/_advices.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
           <folding />
         </state>
       </provider>
