@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../vendor/ion-rangeslider/css/ion.rangeSlider.css">
     <link rel="stylesheet" href="../vendor/ion-rangeslider/css/ion.rangeSlider.skinHTML5.css">
     <link rel="stylesheet" href="../vendor/custom-scrollbar/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="../vendor/simple-pagination/simplePagination.css">
     <link href="https://fonts.googleapis.com/css?family=Exo+2:100,300,400,700|Ubuntu:300" rel="stylesheet">
 </head>
 <body>
@@ -91,85 +92,75 @@
                     </div>
                 </li>
             </ul>
-        <div class="head__main--title">
-            <div class="clearfix">
-                <h1>ЗА ГРАНИЦУ ЧЕРЕЗ ОБРАЗОВАНИЕ И КАРЬЕРУ!</h1>
-                <h2>НАЙДИ СВОЕ МЕСТО ПОД СОЛНЦЕМ УЖЕ СЕГОДНЯ!</h2>
-            </div>
-            <div class="how__it__works">
-                <form action="buttons">
-                    <button class="btn__how-it-works">Как это работает</button>
+        <div class="head__main__wrap clearfix">
+            <div class="variants__catalog">
+                <h2 class="variants__catalog--title">
+                    КАТАЛОГ ВАРИАНТОВ
+                </h2>
+                <form action="variants.php">
+                    <fieldset>
+                        <label for="target">
+                            <a href="#" id="priority-click">
+                                <img src="../pic/priority_sign.png" alt="img_not_found">
+                                <span class="priority-text">приоритет</span>
+                            </a>
+                        </label>
+                        <select name="target" title="Цель" id="target">
+                            <option disabled selected>Какая ваша цель?</option>
+                            <option value="study">Учеба</option>
+                            <option value="holiday">Каникулы</option>
+                            <option value="migration">Миграция</option>
+                            <option value="work">Работа</option>
+                        </select>
+                        <select name="destination" title="Напрваление" id="destination">
+                            <option disabled selected>Куда хотите уехать?</option>
+                            <option value="europe">Европа</option>
+                            <option value="usa">Америка</option>
+                            <option value="england">Англия</option>
+                            <option value="asia">Азия</option>
+                        </select>
+                        <div class="range__slider">
+                            <label for="range__budget">
+                                <input type="text" id="range__budget" name="budget" value="" />
+                                <span class="range__budget--min">min</span>
+                                <span class="range__budget--max">max</span>
+                            </label>
+                        </div>
+                        <select name="language" title="Выбор языка" id="language">
+                            <option disabled selected>Требуемый язык</option>
+                            <option value="eng">Английский</option>
+                            <option value="esp">Испанский</option>
+                            <option value="chi">Китайский</option>
+                            <option value="por">Португальский</option>
+                        </select>
+                        <select name="level_language" title="Уровень знания языка" id="level">
+                            <option disabled selected>Уровень знания языка</option>
+                            <option value="free">Свободное владение</option>
+                            <option value="self">Самодостаточное владение</option>
+                            <option value="elementary">Элементарное владение</option>
+                        </select>
+                        <button class="btn__find__variants">
+                            <span>Найдите варианты</span>
+                            <span>с учетом вашего приоритета</span>
+                            <span></span>
+                        </button>
+                        <p class="priority">
+                            <a href="why_use_priority.html">Зачем выставлять приоритет?</a>
+                        </p>
+                    </fieldset>
                 </form>
             </div>
-        </div>
-    </div>
-</section>
-<section class="search__variants">
-    <div class="container">
-        <div class="variants__catalog">
-            <h2 class="variants__catalog--title">
-                КАТАЛОГ ВАРИАНТОВ
-            </h2>
-            <form action="variants.php">
-
-                <fieldset>
-                    <label for="target">
-                        <a href="#" id="priority-click">
-                            <img src="../pic/priority_sign.png" alt="img_not_found">
-                            <span class="priority-text">приоритет</span>
-                        </a>
-                    </label>
-                    <select name="target" title="Цель" id="target">
-                        <option disabled selected>Какая ваша цель?</option>
-                        <option value="study">Учеба</option>
-                        <option value="holiday">Каникулы</option>
-                        <option value="migration">Миграция</option>
-                        <option value="work">Работа</option>
-                    </select>
-
-                    <select name="destination" title="Напрваление" id="destination">
-                        <option disabled selected>Куда хотите уехать?</option>
-                        <option value="europe">Европа</option>
-                        <option value="usa">Америка</option>
-                        <option value="england">Англия</option>
-                        <option value="asia">Азия</option>
-                    </select>
-
-                    <div class="range__slider">
-                        <label for="range__budget">
-                            <input type="text" id="range__budget" name="budget" value="" />
-                            <span class="range__budget--min">min</span>
-                            <span class="range__budget--max">max</span>
-                        </label>
-                    </div>
-
-                    <select name="language" title="Выбор языка" id="language">
-                        <option disabled selected>Требуемый язык</option>
-                        <option value="eng">Английский</option>
-                        <option value="esp">Испанский</option>
-                        <option value="chi">Китайский</option>
-                        <option value="por">Португальский</option>
-                    </select>
-
-                    <select name="level_language" title="Уровень знания языка" id="level">
-                        <option disabled selected>Уровень знания языка</option>
-                        <option value="free">Свободное владение</option>
-                        <option value="self">Самодостаточное владение</option>
-                        <option value="elementary">Элементарное владение</option>
-                    </select>
-
-                    <button class="btn__find__variants">
-                        <span>Найдите варианты</span>
-                        <span>с учетом вашего приоритета</span>
-                        <span></span>
-                    </button>
-
-                    <p class="priority">
-                        <a href="why_use_priority.html">Зачем выставлять приоритет?</a>
-                    </p>
-                </fieldset>
-
-            </form>
+            <div class="head__main--title clearfix">
+                <div class="clearfix">
+                    <h1>ЗА ГРАНИЦУ ЧЕРЕЗ ОБРАЗОВАНИЕ И КАРЬЕРУ!</h1>
+                    <h2>НАЙДИ СВОЕ МЕСТО ПОД СОЛНЦЕМ УЖЕ СЕГОДНЯ!</h2>
+                </div>
+                <div class="how__it__works">
+                    <form action="buttons">
+                        <button class="btn__how-it-works">Как это работает</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 </section>

@@ -1,74 +1,79 @@
 .head__main {
-  background: url("../img/head__cover3.png") 50% 100%;
+  background: url("../img/head__cover3.png") 0 70%;
   background-size: cover;
-  .logo {
-    width: 20%;
-    padding: 0.5em 1em;
-    display: inline-block;
-  }
-  .features {
-    display: block;
-    float: right;
-    width: 50%;
-    padding-top: 2em;
-    li {
-      position: relative;
-      width: 33%;
-      float: left;
-      .features--icon {
-        width: 20%;
-        &:hover {
-          cursor: pointer;
-          width: 21%;
-        }
-      }
-      .features--description {
-        position: absolute;
-        top: 0;
-        left: 25%;
-        p {
-          font-family: 'Exo 2', sans-serif;
-          color: #4d5152;
-          font-weight: 300;
-        }
-
-        & p:first-child {
-          font-size: 1.1em;
-        }
-        & p:nth-child(2) {
-          padding-top: 0.3em;
-          font-size: 0.7em;
-        }
-      }
+  .container {
+    .logo {
+      width: 20%;
+      padding: 0.5em 1em;
+      display: inline-block;
     }
-  }
-  .head__main--title {
-    display: inline-block;
-    width: 62%;
-    padding: 18em 2em 2em 25em;
-    color: #1e0e00;
-    h1 {
-      padding: 0.3em 0.5em;
-      background-color: rgba(255, 216, 0, 0.7);
-      font-size: 1.7em;
-      font-family: 'Exo 2', sans-serif;
-      font-weight: 700;
-      text-transform: uppercase;
-    }
-    h2 {
-      padding: 0.3em 1.5em 0.3em 0.3em;
-      background-color: rgba(255, 216, 0, 0.7);
-      font-size: 1.3em;
-      font-family: 'Exo 2', sans-serif;
-      font-weight: 700;
-      text-transform: uppercase;
-      float: right;
-    }
-    .how__it__works {
+    .features {
       display: block;
-      padding-top: 3em;
-      padding-bottom: 3em;
       float: right;
+      width: 50%;
+      padding-top: 2em;
+      li {
+        position: relative;
+        width: 33%;
+        float: left;
+        .features--icon {
+          width: 20%;
+          &:hover {
+            cursor: pointer;
+            width: 21%;
+          }
+        }
+        .features--description {
+          position: absolute;
+          top: 0;
+          left: 25%;
+          p {
+            font-family: 'Exo 2', sans-serif;
+            color: #4d5152;
+            font-weight: 300;
+          }
+
+          & p:first-child {
+            font-size: 1.1em;
+          }
+          & p:nth-child(2) {
+            padding-top: 0.3em;
+            font-size: 0.7em;
+          }
+        }
+      }
+    }
+    .head__main__wrap {
+      padding-top: 11px;
+
+      .head__main--title {
+        float: right;
+        padding: 266px 79px 33px 0;
+        color: #1e0e00;
+        h1 {
+          padding: 0.3em 0.5em;
+          background-color: rgba(255, 216, 0, 0.7);
+          font-size: 1.7em;
+          font-family: 'Exo 2', sans-serif;
+          font-weight: 700;
+          text-transform: uppercase;
+        }
+        h2 {
+          padding: 0.3em 1.5em 0.3em 0.3em;
+          background-color: rgba(255, 216, 0, 0.7);
+          font-size: 1.3em;
+          font-family: 'Exo 2', sans-serif;
+          font-weight: 700;
+          text-transform: uppercase;
+          float: right;
+        }
+        .how__it__works {
+          display: block;
+          padding-top: 3em;
+          float: right;
+        }
+      }
+      @import "../forms/variants_catalog";
     }
   }
 }

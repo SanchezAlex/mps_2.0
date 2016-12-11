@@ -1,126 +1,121 @@
-.search__variants {
-  .container {
-    .variants__catalog {
-      width: 16%;
-      min-width: 20em;
-      padding: 0 0.6em;
-      position: absolute;
-      top: 18%;
-      background-color: rgba(255, 255, 255, 0.4);
-      border: 0.15em solid #d4d4d4;
-      .variants__catalog--title {
-        padding: 0.5em 1em 0.7em;
-        color: #a0a0a0;
-        font-family: 'Exo 2', sans-serif;
-        font-size: 1.3em;
-        font-weight: 700;
-        text-transform: uppercase;
+.variants__catalog {
+  width: 16%;
+  min-width: 20em;
+  padding: 0 0.6em;
+  float: left;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 0.15em solid #d4d4d4;
+  .variants__catalog--title {
+    padding: 0.5em 1em 0.7em;
+    color: #a0a0a0;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.3em;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  fieldset {
+    border: 0;
+    label {
+      position: relative;
+      display: block;
+      img {
+        position: absolute;
+        top: -0.4em;
+        left: -1.8em;
       }
-      fieldset {
-        border: 0;
-        label {
-          position: relative;
-          display: block;
-          img {
-            position: absolute;
-            top: -0.4em;
-            left: -1.8em;
-          }
-          .priority-text {
-            position: absolute;
-            top: -0.4em;
-            left: 2.5em;
-            color: #000;
-            font-family: 'Ubuntu', sans-serif;
-            font-size: 0.8em;
-            font-weight: 300;
-          }
-        }
-        select {
-          width: 100%;
-          padding: 0.4em 0.3em;
-          margin: 0.5em auto;
-          color: #666;
-          font-size: 1.2em;
-          font-family: 'Exo 2', sans-serif;
-          border-color: #c0c0c0;
-          background: url(../pic/arrow_variants.png) no-repeat 97% #fff;
-          -webkit-appearance: none;
-          -moz-appearance: none;
-        }
-      }
-      .priority {
+      .priority-text {
+        position: absolute;
+        top: -0.4em;
+        left: 2.5em;
+        color: #000;
         font-family: 'Ubuntu', sans-serif;
-        font-size: 0.7em;
+        font-size: 0.8em;
         font-weight: 300;
-        text-align: end;
-        a {
-          color: #000;
-        }
       }
+    }
+    select {
+      width: 100%;
+      padding: 0.4em 0.3em;
+      margin: 0.5em auto;
+      color: #666;
+      font-size: 1.2em;
+      font-family: 'Exo 2', sans-serif;
+      border-color: #c0c0c0;
+      background: url(../pic/arrow_variants.png) no-repeat 97% #fff;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+    }
+  }
+  .priority {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.7em;
+    font-weight: 300;
+    text-align: end;
+    a {
+      color: #000;
+    }
+  }
 
-      .range__slider {
-        width: 100%;
+  .range__slider {
+    width: 100%;
 
-        .irs-grid-text {
-          display: none;
-        }
-        .irs-line, .irs-line-left, .irs-line-mid, .irs-line-right, .irs-bar-edge, .irs-bar {
-          height: 0.2em;
-        }
-        .irs-line-mid, .irs-line-right, .irs-line-left {
-          background: #000;
-        }
-        .irs-bar, .irs-bar-edge {
-          border: 0.1em solid #ffaf00;
-          background: #ffaf00;
-        }
-        .irs-slider {
-          top: 2.9em;
-          width: 1.3em;
-          height: 1.3em;
-          border: 0.1em solid #000;
-          box-shadow: inset 0 0 0 0.25em #fff;
-          background: #ffaf00;
-          &:hover {
-            box-shadow: inset 0 0 0 0.25em #ffaf00;
-          }
-        }
-        .irs-line, .irs-bar, .irs-bar-edge {
-          top: 3.5em;
-        }
-        .irs-grid-pol {
-          height: 0.25em;
-          background: #999;
-        }
-        .irs-single {
-          padding: 0;
-          top: 0.4em;
-          font-size: 1.2em;
-          background: transparent;
-          color: #ffaf00;
-          font-family: 'Ubuntu', sans-serif;
-          font-weight: 700;
-        }
-        .range__budget--min {
-          position: absolute;
-          top: 2.2em;
-          left: 0;
-          color: #81818c;
-          font-family: 'Ubuntu', sans-serif;
-          font-size: 0.8em;
-          font-weight: 300;
-        }
-        .range__budget--max {
-          position: absolute;
-          top: 2.2em;
-          right: 0;
-          color: #81818c;
-          font-family: 'Ubuntu', sans-serif;
-          font-size: 0.8em;
-          font-weight: 300;
-        }
+    .irs-grid-text {
+      display: none;
+    }
+    .irs-line, .irs-line-left, .irs-line-mid, .irs-line-right, .irs-bar-edge, .irs-bar {
+      height: 0.2em;
+    }
+    .irs-line-mid, .irs-line-right, .irs-line-left {
+      background: #000;
+    }
+    .irs-bar, .irs-bar-edge {
+      border: 0.1em solid #ffaf00;
+      background: #ffaf00;
+    }
+    .irs-slider {
+      top: 2.9em;
+      width: 1.3em;
+      height: 1.3em;
+      border: 0.1em solid #000;
+      box-shadow: inset 0 0 0 0.25em #fff;
+      background: #ffaf00;
+      &:hover {
+        box-shadow: inset 0 0 0 0.25em #ffaf00;
       }
+    }
+    .irs-line, .irs-bar, .irs-bar-edge {
+      top: 3.5em;
+    }
+    .irs-grid-pol {
+      height: 0.25em;
+      background: #999;
+    }
+    .irs-single {
+      padding: 0;
+      top: 0.4em;
+      font-size: 1.2em;
+      background: transparent;
+      color: #ffaf00;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 700;
+    }
+    .range__budget--min {
+      position: absolute;
+      top: 2.2em;
+      left: 0;
+      color: #81818c;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 0.8em;
+      font-weight: 300;
+    }
+    .range__budget--max {
+      position: absolute;
+      top: 2.2em;
+      right: 0;
+      color: #81818c;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 0.8em;
+      font-weight: 300;
     }
   }
 }
